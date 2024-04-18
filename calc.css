@@ -1,0 +1,123 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(90deg, #00ffff, #ff00c3);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.calculator {
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+    max-width: 400px;
+    box-shadow: 0px 0px 10px aqua,
+    0px 0px 10px aqua inset;
+    border:2px solid aqua;
+}
+
+input {
+    grid-column: span 4;
+    padding: 10px;
+    font-size: 1.5em;
+    text-align: right;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px #ff00f2,
+    0px 0px 10px #ff00f2 inset;
+    border:2px solid #ff00f7;
+}
+
+button {
+    padding: 15px;
+    font-size: 1.2em;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.number {
+    background-color: #ff00f2;
+    box-shadow: 0px 0px 10px #ff00f2,
+    0px 0px 10px #ff00f2 inset;
+    border:2px solid #ff00f7;
+}
+
+.operator {
+    background-color: lawngreen;
+    box-shadow: 0px 0px 10px lawngreen,
+    0px 0px 10px lawngreen inset;
+    border:2px solid lawngreen;
+}
+
+.logarithms {
+    background-color: yellow;
+    box-shadow: 0px 0px 10px yellow,
+    0px 0px 10px yellow inset;
+    border:2px solid yellow;
+}
+
+.calculate {
+    box-shadow: 0px 0px 10px aqua,
+    0px 0px 10px aqua inset;
+    border:2px solid aqua;
+    background-color: aqua;
+}
+
+.clear {
+    background-color:red;
+    box-shadow: 0px 0px 10px red,
+    0px 0px 10px red inset;
+    border:2px solid red;
+}
+
+.number:hover{
+    background-color: pink;
+}
+
+.operator:hover{
+    background-color: green;
+}
+
+.calculate:hover{
+    background-color:blue;
+}
+
+.clear:hover{
+    background-color:darkred;
+}
+
+.logarithms:hover{
+    background-color: orange;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, purple, blue);
+    -webkit-background-clip: text;
+    background-clip:text;
+    -webkit-text-fill-color: transparent;
+    box-shadow: 0px 0px 10px aqua,
+    0px 0px 10px aqua inset;
+    border:2px solid aqua;
+    border-radius: 10px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.boxline{
+    box-shadow: 0px 0px 10px aqua,
+    0px 0px 10px aqua inset;
+    border:2px solid aqua;
+    border-radius: 10px;
+    padding:20px;
+}

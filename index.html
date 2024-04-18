@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <div class="boxline">
+        <div>
+            <h1>Calculator</h1>
+            <div class="calculator">
+                <input type="text" id="display" readonly>
+                <button class="number" onclick="inputDisplay('7')">7</button>
+                <button class="number" onclick="inputDisplay('8')">8</button>
+                <button class="number" onclick="inputDisplay('9')">9</button>
+                <button class="operator" onclick="inputDisplay('+')">+</button>
+                <button class="number" onclick="inputDisplay('4')">4</button>
+                <button class="number" onclick="inputDisplay('5')">5</button>
+                <button class="number" onclick="inputDisplay('6')">6</button>
+                <button class="operator" onclick="inputDisplay('-')">-</button>
+                <button class="number" onclick="inputDisplay('1')">1</button>
+                <button class="number" onclick="inputDisplay('2')">2</button>
+                <button class="number" onclick="inputDisplay('3')">3</button>
+                <button class="operator" onclick="inputDisplay('*')">*</button>
+                <button class="number" onclick="inputDisplay('0')">0</button>
+                <button class="operator" onclick="inputDisplay('/')">/</button>
+                <button class="calculate" onclick="calculate()">=</button>
+                <button class="clear" onclick="clearDisplay()">C</button>
+                <button class="operator" onclick="inputDisplay('.')">.</button>
+                <button class="operator" onclick="squareRoot()">√</button>
+                <button class="operator" onclick="power()">x^y</button>
+                <button class="operator" onclick="square()">x^2</button>
+                <button class="logarithms" onclick="sin()">sin</button>
+                <button class="logarithms" onclick="cos()">cos</button>
+                <button class="logarithms" onclick="tan()">tan</button>
+                <button class="logarithms" onclick="log()">log</button>
+            </div>
+        </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>
