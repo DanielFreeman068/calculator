@@ -52,27 +52,38 @@ button {
 }
 
 .logarithms {
+    background-color: #96e2c0;
+    color:#342c66;
 }
 
 .calculate {
+    background-color: #96e2c0;
+    color:#342c66;
 }
 
 .clear {
+    background-color: #96e2c0;
+    color:#342c66;
 }
 
 .number:hover{
+    background-color:cornflowerblue;
 }
 
 .operator:hover{
+    background-color:#68DD9B;
 }
 
 .calculate:hover{
+    background-color:#68DD9B;
 }
 
 .clear:hover{
+    background-color:#68DD9B;
 }
 
 .logarithms:hover{
+    background-color:#68DD9B;
 }
 
 h1{
