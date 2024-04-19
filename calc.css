@@ -1,6 +1,9 @@
 body {
+    background-color: #68DD9B;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg %3E%3Ccircle fill='%2368DD9B' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%2366d1b5' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%2364bec3' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%236598b4' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%23667ba4' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%236A6B92' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(90deg, #00ffff, #ff00c3);
     margin: 0;
     display: flex;
     align-items: center;
@@ -17,9 +20,6 @@ body {
     grid-gap: 10px;
     padding: 20px;
     max-width: 400px;
-    box-shadow: 0px 0px 10px aqua,
-    0px 0px 10px aqua inset;
-    border:2px solid aqua;
 }
 
 input {
@@ -30,9 +30,6 @@ input {
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 10px;
-    box-shadow: 0px 0px 10px #ff00f2,
-    0px 0px 10px #ff00f2 inset;
-    border:2px solid #ff00f7;
 }
 
 button {
@@ -45,58 +42,37 @@ button {
 }
 
 .number {
-    background-color: #ff00f2;
-    box-shadow: 0px 0px 10px #ff00f2,
-    0px 0px 10px #ff00f2 inset;
-    border:2px solid #ff00f7;
+    background-color: #1b0e5a;
+    color:#d0d0ea;
 }
 
 .operator {
-    background-color: lawngreen;
-    box-shadow: 0px 0px 10px lawngreen,
-    0px 0px 10px lawngreen inset;
-    border:2px solid lawngreen;
+    background-color: #96e2c0;
+    color:#342c66;
 }
 
 .logarithms {
-    background-color: yellow;
-    box-shadow: 0px 0px 10px yellow,
-    0px 0px 10px yellow inset;
-    border:2px solid yellow;
 }
 
 .calculate {
-    box-shadow: 0px 0px 10px aqua,
-    0px 0px 10px aqua inset;
-    border:2px solid aqua;
-    background-color: aqua;
 }
 
 .clear {
-    background-color:red;
-    box-shadow: 0px 0px 10px red,
-    0px 0px 10px red inset;
-    border:2px solid red;
 }
 
 .number:hover{
-    background-color: pink;
 }
 
 .operator:hover{
-    background-color: green;
 }
 
 .calculate:hover{
-    background-color:blue;
 }
 
 .clear:hover{
-    background-color:darkred;
 }
 
 .logarithms:hover{
-    background-color: orange;
 }
 
 h1{
@@ -106,18 +82,17 @@ h1{
     -webkit-background-clip: text;
     background-clip:text;
     -webkit-text-fill-color: transparent;
-    box-shadow: 0px 0px 10px aqua,
-    0px 0px 10px aqua inset;
-    border:2px solid aqua;
+    border:3px solid black;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.75);
     border-radius: 10px;
     padding-top:10px;
     padding-bottom:10px;
 }
 
 .boxline{
-    box-shadow: 0px 0px 10px aqua,
-    0px 0px 10px aqua inset;
-    border:2px solid aqua;
+    border:3px solid black;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.75);
     border-radius: 10px;
     padding:20px;
+    background-color: #130c3d;
 }
