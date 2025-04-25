@@ -1,6 +1,8 @@
 body {
-    background-color: #68DD9B;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg %3E%3Ccircle fill='%2368DD9B' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%2366d1b5' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%2364bec3' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%236598b4' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%23667ba4' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%236A6B92' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
+    background-color: #2f2e41;
+    background-image: 
+        linear-gradient(135deg, #68DD9B 0%, #64bec3 30%, #5986c8 70%, #4b3f72 100%),
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg %3E%3Ccircle fill='%2368DD9B' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%2366d1b5' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%2364bec3' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%235986c8' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%234b3f72' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%23302b63' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
     background-attachment: fixed;
     background-size: cover;
     font-family: 'Arial', sans-serif;
@@ -89,7 +91,7 @@ button {
 h1{
     display: flex;
     justify-content: center;
-    background: linear-gradient(90deg, purple, blue);
+    background: linear-gradient(90deg, rgb(255, 255, 255), rgb(179, 179, 185));
     -webkit-background-clip: text;
     background-clip:text;
     -webkit-text-fill-color: transparent;
