@@ -4,6 +4,11 @@ A scientific calculator built using vanilla JavaScript. It supports basic arithm
 
 ---
 
+## Preview
+![Calculator](calc.png)  
+
+---
+
 ## 📂 Overview
 
 This project includes logic for basic and advanced calculations. All logic is written in JavaScript and interacts with the HTML `input` display to show results.
